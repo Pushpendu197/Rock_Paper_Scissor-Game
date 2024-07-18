@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.text {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgba(0, 94, 31, 1) 51%, rgba(0, 79, 110, 1) 87%);
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+
+/* CHOICE SECTION */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem;
+}
+
+/* SINGLE CHOICE [STONE OR PAPER OR SCISSOR] */
+.choice {
+    height: 180px;
+    width: 200px;
+}
+
+.choice:hover {
+    height: 10rem;
+    width: 10rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+
+}
+
+#rock {
+    border: 1rem solid rgb(250, 200, 1);
+    border-radius: 50%;
+
+}
+
+#scissor {
+    border: 1rem solid rgb(253, 116, 25);
+    border-radius: 50%;
+
+}
+
+#paper {
+    border: 1rem solid rgb(43, 0, 255);
+    border-radius: 50%;
+
+}
+
+
+/* SCORE BOARD SECTION  */
+.score_board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 6rem;
+
+
+}
+
+#scng {
+    /* border: 2px solid black; */
+    background: rgb(38, 2, 62);
+    background: linear-gradient(90deg, rgba(38, 2, 62, 1) 0%, rgba(121, 3, 3, 1) 53%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+    width: 14rem;
+    border-radius: 0.5rem;
+}
+
+#total-score {
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+
+}
+
+/* #scng1 {
+    background-color: rgb(0, 128, 157);
+}
+
+#scng2 {
+    background-color: rgb(0, 217, 58);
+} */
+
+#comp-score #user-score {
+    font-size: 5rem;
+}
+
+
+/* MESSAGE BOX SECTION[LOOSE WIN DRAW ] */
+#msg {
+    background-color: rgb(21, 21, 21);
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.msg_container {
+    margin-top: 5rem;
+
+}
